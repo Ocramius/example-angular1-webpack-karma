@@ -7,6 +7,11 @@ module.exports = {
         filename: 'app.js',
         path: path.resolve(__dirname, 'public/build')
     },
+    node: {
+        fs: 'empty',
+        tls: 'empty',
+    },
+    devtool: 'source-maps',
     module: {
         rules: [
             {
