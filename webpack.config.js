@@ -5,7 +5,7 @@ module.exports = {
     entry: './app/main.js',
     output: {
         filename: 'app.js',
-        path: path.resolve(__dirname, 'public/build')
+        path: path.resolve(__dirname, 'public/build') // skipping hash for now, but it's THIS SIMPLE: + '/[hash]'
     },
     node: {
         fs: 'empty',
