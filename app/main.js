@@ -3,4 +3,4 @@ import exampleDirective from "./directives/example-directive.directive";
 
 const mainModule = angular.module('mainModule', []);
 
-mainModule.directive('example-directive', exampleDirective);
+mainModule.directive('example', [exampleDirective]);
