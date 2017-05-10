@@ -1,3 +1,5 @@
+import style from "./example-directive.scss";
+
 export default function exampleDirective() {
     return {
         restrict: 'E',
