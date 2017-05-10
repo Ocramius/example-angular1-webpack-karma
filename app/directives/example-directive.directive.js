@@ -1,3 +1,4 @@
+//noinspection ES6UnusedImports
 import style from "./example-directive.scss";
 import template from "./example-directive.directive.html";
 
