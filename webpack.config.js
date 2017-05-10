@@ -15,6 +15,11 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.js$/,
+                include: path.resolve('app'),
+                loader: 'istanbul-instrumenter-loader!babel-loader',
+            },
+            {
                 test: /\.scss$/,
                 loader: ExtractTextPlugin.extract('css-loader!sass-loader'),
             },
