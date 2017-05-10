@@ -1,0 +1,8 @@
+{
+  "name": "solvians-example-angular-webpack",
+  "version": "0.0.1",
+  "description": "Example project to show if webpack works for solvians too",
+  "main": "app/index.js",
+  "author": "Marco Pivetta <ocramius@gmail.com>",
+  "license": "Copyright 2017 Solvians"
+}
