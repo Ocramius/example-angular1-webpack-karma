@@ -1,9 +1,10 @@
 import style from "./example-directive.scss";
+import template from "./example-directive.directive.html";
 
 export default function exampleDirective() {
     return {
         restrict: 'E',
-        template: '<span class="an-example-directive">Example Directive with a random number {{name}}</span>',
+        template: template,
         link: function (scope, element) {
             scope.name = Math.random();
         }
