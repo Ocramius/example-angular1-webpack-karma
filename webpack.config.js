@@ -20,6 +20,7 @@ module.exports = {
         ],
     },
     plugins: [
-        new ExtractTextPlugin("app.css")
+        new ExtractTextPlugin("app.css"),
+        // @todo splitting out templates could happen here
     ]
 };
