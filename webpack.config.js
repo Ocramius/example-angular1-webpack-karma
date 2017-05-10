@@ -20,7 +20,8 @@ module.exports = {
             },
             {
                 test: /\.html/,
-                loader: 'ngtemplate-loader!html-loader',
+                // loader: 'ngtemplate-loader!html-loader',
+                loader: 'html-loader',
             },
         ],
     },
