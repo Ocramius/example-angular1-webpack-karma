@@ -9,6 +9,7 @@
     "angular": "^1"
   },
   "devDependencies": {
+    "@types/jasmine": "^2.5.47",
     "css-loader": "^0.28.1",
     "extract-text-webpack-plugin": "^2.1.0",
     "html-loader": "^0.4.5",
