@@ -13,6 +13,10 @@ module.exports = {
                 test: /\.scss$/,
                 loader: ExtractTextPlugin.extract('css-loader!sass-loader'),
             },
+            {
+                test: /\.html/,
+                loader: 'html-loader',
+            },
         ],
     },
     plugins: [
