@@ -4,7 +4,7 @@ import template from "./example-directive.directive.html";
 export default function exampleDirective() {
     return {
         restrict: 'E',
-        template: template,
+        templateUrl: template,
         link: function (scope, element) {
             scope.name = Math.random();
         }

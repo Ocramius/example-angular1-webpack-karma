@@ -15,7 +15,7 @@ module.exports = {
             },
             {
                 test: /\.html/,
-                loader: 'html-loader',
+                loader: 'ngtemplate-loader!html-loader',
             },
         ],
     },
