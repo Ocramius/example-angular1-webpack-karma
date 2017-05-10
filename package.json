@@ -4,5 +4,8 @@
   "description": "Example project to show if webpack works for solvians too",
   "main": "app/index.js",
   "author": "Marco Pivetta <ocramius@gmail.com>",
-  "license": "Copyright 2017 Solvians"
+  "license": "Copyright 2017 Solvians",
+  "dependencies": {
+    "angular": "^1"
+  }
 }
